@@ -24,7 +24,7 @@ jobs:
       uses: LanceMcCarthy/akeyless-action@v3
       with:
         access-id: p-wojq2sx40hpuom
-        static-secrets: '{"/ninja/gitttest":"my_first_secret"}'
+        static-secrets: '{"/ninja/gittest":"my_first_secret"}'
         
     - name: Use Outputs
       run: |
